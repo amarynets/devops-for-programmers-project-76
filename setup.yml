@@ -21,3 +21,7 @@
       
   roles:
     - geerlingguy.pip
+
+- hosts: webservers
+  roles:
+    - { role: datadog.datadog, become: true }

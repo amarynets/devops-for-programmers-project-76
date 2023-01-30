@@ -7,8 +7,8 @@
     - name: Run readmine container
       community.docker.docker_container:
         name: redmine-app
-        image: redmine:5.0.4
-        #env_file: /.env
+        image: redmine:5
+        env_file: /.env
         restart_policy: always
         ports:
           - 80:3000
