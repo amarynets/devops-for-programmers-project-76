@@ -1,4 +1,3 @@
-### Hexlet tests and linter status:
 [![Actions Status](https://github.com/amarynets/devops-for-programmers-project-76/workflows/hexlet-check/badge.svg)](https://github.com/amarynets/devops-for-programmers-project-76/actions)
 
 
@@ -8,7 +7,7 @@ This is another DevOps project for the Hexlet course. It deploys a [Redmine](htt
 
 ## Links
 
-- [Deployed app](https://)
+- https://increadeble.tech
 
 ## Deployment tutorial
 
