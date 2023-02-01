@@ -16,3 +16,6 @@ datadog_checks:
     instances:
       - name: Localhost
         url: http://localhost
+
+pip_install_packages:
+  - docker
