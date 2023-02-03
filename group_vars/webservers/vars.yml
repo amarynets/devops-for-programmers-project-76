@@ -5,17 +5,3 @@ redmine_db_password: "{{ vault_redmine_db_password }}"
 redmine_db_port: "{{ vault_redmine_db_port }}"
 
 datadog_api_key: "{{ vault_datadog_api_key }}"
-datadog_site: "datadoghq.eu"
-datadog_config:
-  logs_enabled: true
-
-datadog_checks:
-  http_check:
-    init_config:
-
-    instances:
-      - name: Localhost
-        url: http://localhost
-
-pip_install_packages:
-  - docker
